@@ -90,5 +90,15 @@
                </padding></TextField>
          </children>
       </HBox>
+      <HBox layoutX="282.0" layoutY="37.0" prefHeight="55.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="txtLoginTitle" alignment="CENTER" prefHeight="54.0" prefWidth="200.0" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="578.0" layoutY="477.0" prefHeight="34.0" prefWidth="102.0" text="By William Gunther" />
    </children>
 </AnchorPane>

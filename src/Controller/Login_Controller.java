@@ -47,6 +47,9 @@ public class Login_Controller implements Initializable
 
     @FXML
     private Label pwLbl;
+    
+    @FXML
+    private Label txtLoginTitle;
 
     @FXML
     private PasswordField txtPw;
@@ -348,6 +351,7 @@ public class Login_Controller implements Initializable
         btnSignIn.setText(rb.getString("login"));
         btnExit.setText(rb.getString("Exit"));
         btnReset.setText(rb.getString("Reset"));
+        txtLoginTitle.setText(rb.getString("PrecisionGardens"));
 
 
     }
