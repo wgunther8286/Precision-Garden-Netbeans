@@ -215,7 +215,7 @@ public class Create_Plant_Controller implements Initializable {
     private void fillCboPlantType() throws IOException {
         ObservableList<String> cboPlantTypeLs = FXCollections.observableArrayList();
 
-        cboPlantTypeLs.addAll("Tomato");
+        cboPlantTypeLs.addAll("Tomato", "Spinach");
 
         cboPlantType.setItems(cboPlantTypeLs);
     }
@@ -223,7 +223,7 @@ public class Create_Plant_Controller implements Initializable {
     private void fillCboPlantSubType() throws IOException {
         ObservableList<String> cboPlantSubTypeLs = FXCollections.observableArrayList();
 
-        cboPlantSubTypeLs.addAll("Roma", "Cherry", "Globe");
+        cboPlantSubTypeLs.addAll("Roma", "Cherry", "Globe", "Smooth", "Savory");
 
         cboPlantSubType.setItems(cboPlantSubTypeLs);
     }
